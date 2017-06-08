@@ -1,0 +1,10 @@
+Database
+amon
+information_schema
+metastore
+mysql
+nav
+navms
+performance_schema
+rman
+sentry
