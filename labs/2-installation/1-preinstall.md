@@ -29,3 +29,10 @@
 * mariadb
   sudo yum install MariaDB-server MariaDB-client
   sudo systemctl start mariadb
+
+* db-connector
+  wget https://downloads.mariadb.com/Connectors/java/connector-java-2.0.2/
+  export JAVA_HOME=/usr/bin/java/
+  export CLASSPATH=/home/centos/mariadb-java-client-2.0.2.jar:$CLASSPATH
+
+* mysql_secure_installation
