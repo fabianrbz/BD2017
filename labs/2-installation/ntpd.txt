@@ -1,0 +1,8 @@
+      Local time: Thu 2017-06-08 16:46:45 UTC
+  Universal time: Thu 2017-06-08 16:46:45 UTC
+        RTC time: Thu 2017-06-08 16:46:44
+       Time zone: UTC (UTC, +0000)
+     NTP enabled: yes
+NTP synchronized: yes
+ RTC in local TZ: no
+      DST active: n/a
