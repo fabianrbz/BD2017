@@ -5,6 +5,8 @@
 * df
 
 * sysctl -a | grep hugepage
+  echo never > /sys/kernel/mm/transparent_hugepage/defrag
+  echo never > /sys/kernel/mm/transparent_hugepage/enabled
 
 * sudo vi /etc/grub.conf
   append transparent_hugepage=never
@@ -13,7 +15,7 @@
   sudo service iptables stop
   sudo chkconfig iptables off
 
-* selinux
+* elinux
   check sestatus
 
 * nscd
