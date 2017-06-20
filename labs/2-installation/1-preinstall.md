@@ -15,7 +15,9 @@
   sudo service iptables stop
   sudo chkconfig iptables off
 
-* elinux
+* selinux
+  vi /etc/sysconfig/selinux
+  append SELINUX=disabled
   check sestatus
 
 * nscd
@@ -23,10 +25,8 @@
 
 * ntpd
   sudo yum install ntpd
+  chkconfig ntpd on
   check timedatectl
-
-* ulimit
-
 
 * mariadb
   sudo yum install MariaDB-server MariaDB-client
